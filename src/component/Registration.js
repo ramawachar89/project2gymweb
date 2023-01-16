@@ -27,7 +27,7 @@ export default function Registration() {
 
   function captureEmail(e) {
     setEmail(e.target.value);
-    const regEmail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;
+    const regEmail = /^[^\s@]+@[^\s@]+\.[^\s@]{2,}$/i;    
     if (regEmail.test(email)) {
       setEM('');
     } else if(!regEx.test(email) && email !== " "){
@@ -52,7 +52,7 @@ export default function Registration() {
     const pwRegEx = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z])(?!.*\s).{6,20}$/;
     if (pwRegEx.test(password)) {
       setPW('');
-    } else if(!pwRegEx.test(password) && password !== " "){
+    } else if(!pwRegEx.test(password) && password == " "){
       setPW("pw is Not Valid");
     
     } else  {
