@@ -18,7 +18,7 @@ export default function AboutNav(){
     {show ?
      <AiOutlineMenu onClick={()=>setShow(false)}/>
      :
-     <AiOutlineClose onClick={()=>setShow(true)}/>
+     <AiOutlineClose onClick={()=>setShow(true)/>
     }
     </div>
     </div>
