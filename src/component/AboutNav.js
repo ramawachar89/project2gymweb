@@ -15,7 +15,7 @@ export default function AboutNav(){
     </div>
     <Link to='/registration'><button className={Navbar.joibus}>JOIN US</button></Link>
     <div className={Navbar.mobile} >
-    {show ?
+    {show ?  
      <AiOutlineMenu onClick={()=>setShow(false)}/>
      :
      <AiOutlineClose onClick={()=>setShow(true)}/>
