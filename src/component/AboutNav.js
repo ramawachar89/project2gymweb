@@ -1,6 +1,6 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import Navbar from './AboutNav.module.css'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import Navbar from './AboutNav.module.css';
 import { AiOutlineMenu,AiOutlineClose } from "react-icons/ai";
 import {useState} from 'react'
 export default function AboutNav(){
