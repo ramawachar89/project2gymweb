@@ -1,10 +1,10 @@
-import React from 'react'
-import {Link} from 'react-router-dom'
-import NavbarStyle from './Navbar.module.css'
+import React from 'react';
+import {Link} from 'react-router-dom';
+import NavbarStyle from './Navbar.module.css';
 import { AiOutlineMenu,AiOutlineClose } from "react-icons/ai";
 import {useState} from 'react'
 import { Data} from '../Data';
-import {useRecoilState} from 'recoil' 
+import {useRecoilState} from 'recoil'; 
 export default function Navbar(){
   const[show , setShow] = useState(true)
 
