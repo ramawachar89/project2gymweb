@@ -15,7 +15,7 @@ export default function App() {
 
   // const data = useRecoilValue(Data)
   const[ show , setShow] = useState(false)
-  const [data,setData] = useRecoilState(Data)  //
+  const [data,setData] = useRecoilState(Data)  
   const [sub,setSub] = useRecoilState(Data2)
   const [sub1,setSub2] = useRecoilState(Data3)
 
